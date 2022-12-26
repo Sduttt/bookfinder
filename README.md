@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Bookfinder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bookfinder is a web app that allows you to search for books by title, author, or ISBN. It uses the [Open Library](https://openlibrary.org/developers/api) API to retrieve book information and display it to the user.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Search for books by title, author, or ISBN
+- View detailed information about a book, including the cover image, publisher, and page count
+<!-- - Save books to a list of favorites for later reference -->
 
-### `npm start`
+## Live Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can check out this project live on [https://gybf-bookfinder.netlify.app](https://gybf-bookfinder.netlify.app).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To install and set up the project, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone https://github.com/Sduttt/bookfinder.git`
+2. Install dependencies: `npm install` or `yarn install`
 
-### `npm run build`
+4. Start the development server: `npm start` or `yarn start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To use the app, simply enter a search term in the input field and click the search button. You can search by any of the Book title, author name or ISBN. The app will display a list of books matching your search criteria. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Dependencies
 
-### `npm run eject`
+- @testing-library/jest-dom: ^5.16.5,
+- @testing-library/react: ^13.4.0,
+- @testing-library/user-event: ^13.5.0,
+- daisyui: ^2.46.0,
+- react: ^18.2.0,
+- react-dom: ^18.2.0,
+- react-icons: ^4.7.1,
+- react-scripts: 5.0.1,
+- web-vitals": ^2.1.4
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Dev Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- autoprefixer: ^10.4.13,
+- axios: ^1.2.1,
+- postcss: ^8.4.20,
+- tailwindcss: ^3.2.4
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+If you have any questions or want to report a bug, feel free to contact me at [subhamdutta588@gmail.com](mailto:subhamdutta588@gmail.com).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Follow me on [Linkedin](https://www.linkedin.com/in/subham-dutta-8670b8178/) | [Github](https://github.com/Sduttt) | [Twitter](https://twitter.com/Subhamd88404337) | [Facebook](https://www.facebook.com/profile.php?id=100073951804006) | [Instagram](https://www.instagram.com/its_subham_dutta/)
