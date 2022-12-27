@@ -44,16 +44,16 @@ function App() {
           value={searchQuery}
           onChange={(event) => setSearchQuery(event.target.value)}
           placeholder="Book Name/Authors Name/ISBN..."
-          className="rounded w-96 my-auto p-4 text-lg"
+          className="rounded w-68 sm:w-96 my-auto p-3 sm:p-4 sm:text-lg"
         />
         <button
           onClick={handleSubmit}
           type="submit"
-          className="rounded font-bold text-gray-900 cursor-pointer my-auto p-4 text-lg hover:bg-accent-focus bg-accent">
+          className="rounded font-bold text-gray-900 cursor-pointer my-auto p-3 sm:p-4  sm:text-lg hover:bg-accent-focus bg-accent">
           Search
         </button>
       </form>
-      {isEmpty ? (<h1 className="center text-4xl font-extrabold flex-col mt-[-50px]"> <span className="text-[150px]"><ImBooks/></span> Books will appear here!</h1>) : null}
+      {isEmpty ? (<h1 className="center text-2xl sm:text-4xl font-extrabold flex-col mt-[-50px]"> <span className="text-[100px] sm:text-[150px]"><ImBooks/></span> Books will appear here!</h1>) : null}
       {stat ? (
         <div className="text-center text-xl font-bold my-2">
           <h1 className="">

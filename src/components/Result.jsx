@@ -1,6 +1,6 @@
 function Result({img, book_title, author, year, page}) {
   return (
-    <div className="card card-side bg-[#3B3B3B] w-[400px] m-4 shadow-xl">
+    <div className="card card-side bg-[#3B3B3B] w-[350px] sm:w-[400px] m-2 shadow-xl">
       <figure>
         <img src={img} alt="Cover" className="w-40 h-56" />
       </figure>
